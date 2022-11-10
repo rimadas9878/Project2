@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS Gameathon_db;
+CREATE DATABASE Gameathon_db;
