@@ -8,12 +8,12 @@ const gameLogin = async (event) => {
     if(email && password) {
         const response = await fetch('/api/users/login', {
             method: 'POST',
-            body: JSON.stringify({email, password}),
+            body: JSON.stringify({username: email, password}),
             headers: {'Content-Type' : 'application/json'},
         });
 
         if(response.ok){
-            document.location.replace('/gamePage');
+            document.location.replace('/gamezone');
         }
         else {
             alert(response.statusText)
@@ -23,5 +23,5 @@ const gameLogin = async (event) => {
 
 document
   .querySelector('.login-form')
-  .addEventListener('submit', loginFormHandler);
+  .addEventListener('submit', gameLogin);
 
