@@ -55,6 +55,7 @@ router.post('/login', async (req, res) => {
       req.session.loggedIn = true;
 
       res.json({ user, message: 'You are now logged in!' });
+      res.redirect("/games")
     });
   } catch (err) {
     console.log(err)
