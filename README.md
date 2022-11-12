@@ -33,8 +33,8 @@
 
   ## Questions?
   ### Reach us here: 
-  [rimadas9878](https://github.com/rimadas9878)
-  [iTeak](https://github.com/iTeak)
-  [claire-max](https://github.com/claire-max)
-  [Everyone1138](https://github.com/Everyone1138)
+  * [rimadas9878](https://github.com/rimadas9878)
+  * [iTeak](https://github.com/iTeak)
+  * [claire-max](https://github.com/claire-max)
+  * [Everyone1138](https://github.com/Everyone1138)
   
