@@ -1,0 +1,8 @@
+        @font-face {
+            font-family: "PressStart2P";
+            src: url("/GameFolder/assets/PressStart2P-Regular.ttf");
+        }
+        body {
+            font-family: "PressStart2p", sans-serif;
+            font-size: 15px;
+        }
