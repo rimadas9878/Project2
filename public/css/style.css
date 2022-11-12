@@ -1,58 +1,134 @@
-body{
-    background-color: black;
-    color: white;
-    display: flex;
-    
-    width: 100%;
-    height: 100%;
-}
-.gameathonTitle{
+/* Login Page */
+.gameathonTitle {
   text-align: center;
-  margin-left: 110%;
-  font-size: 300%;
+  font-size: 700%;
 }
 
-.centerconsole {
-display:flex;
-justify-content: center;
-border: solid yellow; 
-padding-left:100px;
-padding-right:100px;
-justify-content: center;
-align-items: center;
-height: 100vh;
-background-color: black;
-margin: auto;
-}
-h3 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.loginGrid {
+  margin: 5%;
 }
 
-.titlediv {
-    margin-bottom: 200px;
+.usernameGrid {
+  padding-bottom: 8%;
+  margin-left: 17%;
+  font-size: 100%;
 }
+
+
+
+.usernametext {
+  padding: 10px 50px;
+}
+
+.passwordtext {
+  padding: 20px 50px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.passwordGrid {
+  margin-left: 17%;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  background-color: black;
+  position: relative;
+  color: rgb(0, 136, 255);
+  font-family: 'Press Start 2P';
+  color: rgb(208, 255, 0);
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/358/884/893/cartoon-character-classic-computer-game-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.pagewrap {
+  font-size: 1.5rem;
+  border-color: rgb(0, 136, 255);
+  background-color: black;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 2rem;
+  padding: 50px;
+  box-shadow: 2px 7px rgb(100, 89, 89);
+  display: flex;
+  justify-content: left;
+
+}
+
 .btn-grid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  margin: 20px 0;
+  text-align: center;
+}
 
-  }
-  button{
-    font-size: 20px;
-    background-color: yellow;
-    color: rgb(1, 0, 0);
-    margin-left:20px;
-    margin-right:20px;
-    margin-top: 2px;
-    padding-left: .5px;
-    padding-right: .5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: .25;
-    box-shadow: 2px 2px rgb(16, 16, 16)
-  }
-  .btnlogin {
-    padding: 50px;
-  }
+button:hover {
+  background-color: rgb(0, 136, 255);
+  border-radius: 100px;
+
+}
+
+button {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  border-radius: 4rem;
+  box-shadow: 2px 2px rgb(16, 16, 16);
+
+}
+
+/* .btns {
+  display: flex;
+  margin-top: auto;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-left: 0px;
+} */
+
+.controls {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+#password {
+  padding-top: 2px;
+  margin: 2px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  border-color: rgb(0, 136, 255);
+  border-radius: 100px;
+
+}
+
+/* Signup Page */
+
+
+
+.nametext {
+  padding: 10px 50px;
+  margin-bottom: 10px;
+}
+
+.signupBtn{
+  font-size: inherit;
+    margin: 5% 30%;
+    padding: 10px 10px;
+    border-radius: 4rem;
+    box-shadow: 2px 2px rgb(16 16 16);
+}
 
