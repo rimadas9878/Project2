@@ -13,7 +13,7 @@ const gameLogin = async (event) => {
         });
 
         if(response.ok){
-            document.location.replace('/gamezone');
+            document.location.replace('/games');
         }
         else {
             alert(response.statusText)
