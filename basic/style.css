@@ -1,0 +1,96 @@
+:root {
+  --primarycolor: rgb(0, 0, 0);
+  --secondarycolor: rgb(208, 255, 0);
+
+ }
+
+ .pagewrap {
+   font-size: 1.5rem;
+   border-color:  rgb(0, 136, 255);
+   background-color: black;
+   border-style: solid;
+   border-width: 5px;
+   border-radius: 2rem;
+   padding: 50px;
+   box-shadow: 2px 7px rgb(100, 89, 89);
+   display: flex;
+   justify-content: left;
+    margin-left: 10%;
+    margin-top: 5%;
+   
+ }
+ 
+ body {
+   display: flex;
+   justify-content: flex-start;
+   align-items: left;
+   background-color: black;
+   position: relative;
+  color: rgb(0, 136, 255);;
+  font-family: 'Press Start 2P';
+  color: rgb(208, 255, 0);;
+  background-image:url(https://c4.wallpaperflare.com/wallpaper/358/884/893/cartoon-character-classic-computer-game-wallpaper-preview.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
+  
+ .btn-grid {
+   display: grid;
+   grid-template-columns: repeat(3, auto);
+   gap: 10px;
+   margin: 20px 0;
+ }
+ button{
+   font-size: 20px;
+   margin-left:20px;
+   margin-right:20px;
+   padding-left: 5rem;
+   padding-right: 5rem;
+   padding-top: 10px;
+   padding-bottom: 16px;
+   border-radius: 4rem;
+   box-shadow: 2px 2px rgb(16, 16, 16);
+ }
+ .btn {
+   font-size: 20px;
+   background-color:var(--primarycolor);
+   color:  rgb(208, 255, 0);
+   margin-left:20px;
+   margin-right:20px;
+   margin-top: 2px;
+   padding-left: 5rem;
+   padding-right: 5rem;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   border-radius: 2rem;
+   box-shadow: 2px 2px rgb(16, 16, 16);
+   font-family: 'Press Start 2P';
+ }
+ 
+ button:hover {
+   border-color:  rgb(0, 136, 255);
+   border-radius: 100px;
+   
+ }
+ .controls {
+   display: block;
+   justify-content: center;
+   align-items: center;
+ }
+ #password {
+padding-top: 2px;
+margin:2px;
+margin-bottom: 20px;
+ }
+
+
+.btns{
+  display: flex;
+  margin-top: auto;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-left: 0px;
+}
+
+
