@@ -1,4 +1,4 @@
-//this is how you are supposed to nabigate your site 
+//this is how you are supposed to navigate your site 
 const router = require('express').Router();
 // const withAuth = require('../../utils/auth')
 
