@@ -15,8 +15,8 @@ router.get('/login', (req, res) => {
 router.get("/games",(req,res)=>
  {res.render("gamezone")})
 
- router.get("/prateek",(req,res)=>
- {res.render('prateek')})
+ router.get("/zelda",(req,res)=>
+ {res.render('zelda')})
 
 router.get("/",(req,res) => {
   res.render("login")
