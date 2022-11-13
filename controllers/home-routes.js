@@ -15,6 +15,9 @@ router.get('/login', (req, res) => {
 router.get("/games",(req,res)=>
  {res.render("gamezone")})
 
+ router.get("/prateek",(req,res)=>
+ {res.render('prateek')})
+
 router.get("/",(req,res) => {
   res.render("login")
 })
@@ -39,6 +42,8 @@ router.get('/', (req, res) => {
 
   res.redirect('login');
 });
+
+
 
 module.exports = router;
 // this is wher you set up you res and all that 
