@@ -40,9 +40,17 @@ router.get("/games",(req,res)=>
   {res.render('pokemonBLUEGB')})
 
     //Route for Pokemon YELLOW
-    router.get("/pokemonYELLOWGB",(req,res)=>
-    {res.render('pokemonYELLOWGB')})
+router.get("/pokemonYELLOWGB",(req,res)=>
+ {res.render('pokemonYELLOWGB')})
 
+router.get("/MarioKart64",(req,res)=>
+ {res.render('MarioKart64')})
+
+router.get("/marioAndTetris",(req,res)=>
+ {res.render('marioAndTetris')})
+
+router.get("/Turok64",(req,res)=>
+ {res.render('Turok64')})
 
 router.get("/bombermanSixtyFourTwo",(req,res)=>
  {res.render('bombermanSixtyFourTwo')})
