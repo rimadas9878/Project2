@@ -1,0 +1,10 @@
+.imgGrid{
+    width: 20%;
+    height: auto;
+}
+
+.gameGrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
