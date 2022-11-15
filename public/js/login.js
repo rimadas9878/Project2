@@ -16,7 +16,7 @@ const gameLogin = async (event) => {
             document.location.replace('/games');
         }
         else {
-            alert(response.statusText)
+            alert("Couldn't find your Gameathon Account")
         }
     }
 };
