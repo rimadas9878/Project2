@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    color: rgb(0, 136, 255);
+    font-family: 'Press Start 2P';
+    color: rgb(208, 255, 0);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/932/64/909/video-games-artwork-dark-souls-iii-dark-souls-wallpaper-preview.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    background-size: auto;
+    background-size: cover;
+  }
