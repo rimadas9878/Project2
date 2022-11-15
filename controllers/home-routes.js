@@ -47,8 +47,8 @@ router.get("/MarioKart64",(req,res)=>
 router.get("/marioAndTetris",(req,res)=>
  {res.render('marioAndTetris')})
 
-router.get("/Turok64",(req,res)=>
- {res.render('Turok64')})
+router.get("/TurokSixtyFour",(req,res)=>
+ {res.render('TurokSixtyFour')})
 
 //Route for Star Fox
 router.get("/starfoxSNES", (req, res) => { res.render('starfoxSNES') })
