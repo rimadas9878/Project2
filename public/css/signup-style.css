@@ -11,9 +11,7 @@
     background-size: cover;
   } */
 
-.container { 
 
-}
 
   body {
     display: flex;
@@ -44,7 +42,7 @@
     border-color:rgb(0, 136, 255);
     padding: 5em;
     background-color: black;
-    background-image: url("public/css/images/super-mario-bros-4k-for-desktop-wallpaper-preview.jpeg");
+    background-image: url(https://images6.alphacoders.com/860/thumb-1920-860645.png);
     background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
