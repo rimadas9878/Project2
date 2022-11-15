@@ -15,6 +15,7 @@ router.get('/login', (req, res) => {
 router.get("/games",(req,res)=>
  {res.render("gamezone")})
 
+
  router.get("/zelda",(req,res)=>
  {res.render('zelda')})
 
@@ -41,6 +42,28 @@ router.get("/games",(req,res)=>
     //Route for Pokemon YELLOW
     router.get("/pokemonYELLOWGB",(req,res)=>
     {res.render('pokemonYELLOWGB')})
+
+
+router.get("/bombermanSixtyFourTwo",(req,res)=>
+ {res.render('bombermanSixtyFourTwo')})
+
+router.get("/DiddyKongQuestSNES",(req,res)=>
+ {res.render('DiddyKongQuestSNES')})
+
+router.get("/FzeroSixtyFour",(req,res)=>
+ {res.render('FzeroSixtyFour')})
+
+router.get("/GoldenEye",(req,res)=>
+ {res.render('GoldenEye')})
+
+router.get("/KillerInstinctSixtyFour",(req,res)=>
+ {res.render('KillerInstinctSixtyFour')})
+
+router.get("/KobeBryantNBAcourtside",(req,res)=>
+ {res.render('KobeBryantNBAcourtside')})
+
+router.get("/MaddenNinetynine",(req,res)=>
+ {res.render('MaddenNinetynine')})
 
 router.get("/",(req,res) => {
   res.render("login")
