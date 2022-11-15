@@ -21,7 +21,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
   }
-  .contain {
+  .container {
     border: solid;
     border-color:rgb(0, 136, 255);
     padding: 5em;
