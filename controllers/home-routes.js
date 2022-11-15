@@ -16,7 +16,31 @@ router.get("/games",(req,res)=>
  {res.render("gamezone")})
 
  router.get("/zelda",(req,res)=>
- {res.render('zelda')}) // create more of these for the games to work
+ {res.render('zelda')})
+
+ //Route for Super Mario Kart(USA)
+ router.get("/SuperMarioKartSNES",(req,res)=>
+ {res.render('SuperMarioKartSNES')})
+
+ //Route for Mario Sixty Four
+ router.get("/mariosixtyfour",(req,res)=>
+ {res.render('mariosixtyfour')})
+
+ //Route for Megaman Sixty Four
+ router.get("/megamanSIXTYFOUR",(req,res)=>
+ {res.render('megamanSIXTYFOUR')})
+
+  //Route for Pokemon SILVER
+  router.get("/pokemnonSILVERGB",(req,res)=>
+  {res.render('pokemnonSILVERGB')})
+
+  //Route for Pokemon BLUE
+  router.get("/pokemonBLUEGB",(req,res)=>
+  {res.render('pokemonBLUEGB')})
+
+    //Route for Pokemon YELLOW
+    router.get("/pokemonYELLOWGB",(req,res)=>
+    {res.render('pokemonYELLOWGB')})
 
 router.get("/",(req,res) => {
   res.render("login")
