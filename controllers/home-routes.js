@@ -16,7 +16,7 @@ router.get("/games",(req,res)=>
  {res.render("gamezone")})
 
  router.get("/zelda",(req,res)=>
- {res.render('zelda')})
+ {res.render('zelda')}) // create more of these for the games to work
 
 router.get("/",(req,res) => {
   res.render("login")
