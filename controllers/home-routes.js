@@ -32,11 +32,23 @@ router.get("/pokemnonSILVERGB", (req, res) => { res.render('pokemnonSILVERGB') }
 //Route for Pokemon BLUE
 router.get("/pokemonBLUEGB", (req, res) => { res.render('pokemonBLUEGB') })
 
-//Route for Pokemon YELLOW
-router.get("/pokemonYELLOWGB", (req, res) => { res.render('pokemonYELLOWGB') })
+
 
 //Route for South Park
 router.get("/southPark", (req, res) => { res.render('southPark') })
+
+    //Route for Pokemon YELLOW
+router.get("/pokemonYELLOWGB",(req,res)=>
+ {res.render('pokemonYELLOWGB')})
+
+router.get("/MarioKart64",(req,res)=>
+ {res.render('MarioKart64')})
+
+router.get("/marioAndTetris",(req,res)=>
+ {res.render('marioAndTetris')})
+
+router.get("/Turok64",(req,res)=>
+ {res.render('Turok64')})
 
 //Route for Star Fox
 router.get("/starfoxSNES", (req, res) => { res.render('starfoxSNES') })
