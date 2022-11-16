@@ -73,7 +73,11 @@ router.get("/KobeBryantNBAcourtside", (req, res) => { res.render('KobeBryantNBAc
 
 router.get("/MaddenNinetynine", (req, res) => { res.render('MaddenNinetynine') })
 
+<<<<<<< HEAD
+router.get("/contactUS", (req, res) => { res.render('contactUS') })
+=======
 router.get("/allComments", (req, res) => { res.render('allComments') })
+>>>>>>> main
 
 router.get("/", (req, res) => {
   res.render("login")
