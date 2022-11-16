@@ -14,4 +14,14 @@ const seedDatabase = async () => {
   process.exit(0);
 };
 
+const commentDatabase = async () => {
+  await sequelize.sync({ force: true });
+
+  await Comment.bulkCreate(commentData, {
+    individualHooks: true,
+    returning: true,
+  });
+  process.exit(0);
+}
+
 seedDatabase();
