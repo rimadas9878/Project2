@@ -1,11 +1,100 @@
-<div style="width:980px;height:640px;max: width 720px;px">
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F-Zero X 64 | Welcome</title>
+    <link rel="stylesheet" href="/views/public/css/pagestyles.css">
+      <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+  />
+  <link rel="stylesheet" href="css/gamepage-style.css" />
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<body>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <h1><a class="navbar-item">
+          GAMEATHON
+        </a></h1>
+      <div class="navbar-item has-dropdown is-hoverable">
+
+        <div class="navbar-dropdown">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+            <a class="button is-secondary" href="games">
+            <strong>Back to main page! </strong>
+          </a>
+          <a class="button is-warning" href="contactUS">
+            <strong>Contact </strong>
+          </a>
+
+          <a class="button is-secondary" href="allComments">
+            <strong>Comments </strong>
+          </a>
+
+          <a class="button is-warning" href="logout">
+            <strong>Log Out! </strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+    
+
+    <!-- End Top Bar -->
+
+    <div class="callout large primary">
+        <div class="row column text-center">
+            <h1>🚀WHERE GAMERS GO!🚀</h1>
+            <h2 class="subheader">Scroll down and click on "start game" to get your game on!</h2>
+        </div>
+    </div>
+
+    <!-- We can now combine rows and columns when there's only one column in that row -->
+    <div class="row medium-8 large-7 columns">
+        <div class="blog-post">
+            <h3>F-Zero X 64</h3>
+            <img class="thumbnail" src="marioKartSixtyFourtwo.png">
+            <p> Mario Kart 64 is a racing game that is part of the Mario Kart series, originally released for the Nintendo 64 in 1996 in Japan and 1997 worldwide. Being an upgrade from its predecessor, Super Mario Kart, it features a similar base to that game in which players select Mario cast members to drive in karts, employing a weapon-based system to benefit the player and hinder opponents, though it has expanded gameplay, such as the introduction of Mini-Turbo boosts from drifting and four-player support. It is the first game in the series to use three-dimensional graphics for its environment design, such as the addition of elevation, advanced collision physics, expanded camera controls, real walls that can obscure views, and increased aesthetic fidelity; however, the characters, the items, and some track obstacles in-game remain as two-dimensional, pre-rendered sprites, which are rendered for game optimization. Additionally, the game contains unique track designs rather than multiple variants of the same track, and it introduces various track tropes that would later be reused in later Mario Kart installments, such as Luigi Circuit being the first track. Other elements would become series mainstays, such as its racer weight classification, the introduction of Wario and Donkey Kong as playable characters, and several new items such as the Spiny Shell and triple variants of Green Shells and Red Shells.
+
+The above text is from the Super Mario Wiki and is available under a Creative Commons license. Attribution must be provided through a list of authors or a link back to the original article. Source: https://www.mariowiki.com/Mario_Kart_64</p>
+
+        </div>
+    </div>
+    <div class="gameArea">
+        <section class="gameFrame">
+            <div>
+    <div id="game"></div>
     <div id="game"></div>
 </div>
 <script type="text/javascript">
     EJS_player = '#game';
     EJS_gameUrl = '/handlebargames/MarioKart64.z64'; // Url to Game rom
-    EJS_core = 'snes';
+    EJS_core = 'n64';
     EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/';
 </script>
 <script src="https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/loader.js">
 </script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+
+
+</html>
