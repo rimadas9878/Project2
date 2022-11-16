@@ -4,7 +4,7 @@ async function newFormHandler(event) {
     const comment = document.querySelector('#comment').value;
     const gamer_name = document.querySelector('#gamer_name').value;
 
-    // Send fetch request to add a new dish
+    // Send fetch request to add a new 
     const response = await fetch(`/api/comment`, {
       method: 'POST',
       body: JSON.stringify({

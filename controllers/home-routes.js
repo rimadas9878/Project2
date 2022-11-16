@@ -23,6 +23,8 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get("/logout", (req, res) => { res.render("login") })
+
 router.get("/games", (req, res) => { res.render("gamezone") })
 
 router.get("/zelda", (req, res) => { res.render('zelda') })

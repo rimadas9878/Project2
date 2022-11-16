@@ -1,85 +1,99 @@
-<!doctype html>
-  <html class="no-js" lang="en">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GAMEATHON</title>
-   <link rel="stylesheet" href="/css/commentpage-style.css">
+    <link rel="stylesheet" href="/css/commentpage-style.css" />
   </head>
 
-  
-<body>
+  <body>
 
-
-
-<div class="comment-container">
-    <div class='card-header col-md-10'>
+    <div class="comment-container">
+      <div class="card-header col-md-10">
         <h2 class="commentTitle">Comments Appreciated!!!!!!!</h2>
-        <p class="commentPara">We would love to hear any feedback from you so that we can further and continue enhancing and improving our services. Thank you!</p>        
-    </div>
-    {{#each comments as |comment|}}
-    <div class="comment col-md-5 ">
-        <p>
+        <p class="commentPara">We would love to hear any feedback from you so
+          that we can further and continue enhancing and improving our services.
+          Thank you!</p>
+      </div>
+      {{#each comments as |comment|}}
+        <div class="comment col-md-5">
+          <p>
             {{comment.id}}
             {{comment.comment}}
-        </p>
-    </div>
-    <div class='col-md-7'>
-        <p>
+          </p>
+        </div>
+        <div class="col-md-7">
+          <p>
             Gamer:
             {{comment.gamer_name}}
-        </p>
-    </div>
-    {{/each}}
-    <div class='add-comment-container '>
-        <form class='new-comment-form'>
-            <label for='game_name'>
-                Game Name:
-            </label>
-            <br />
-            <textarea class="comment_textarea" id='game_name' name='game_name' rows='2' cols='30'>
-        {{game_name}}
-            </textarea>
-            <br />
-            <label for='comment'>
-                Comment here:
-            </label>
-            <br />
-            <textarea class="comment_textarea" id='comment' name='comment' rows='5' cols='30'>
-        {{comment}}
-      </textarea>
-            <br />
-            <label for='gamer_name'>
-                Gamer's Name:
-            </label>
-            <br />
-            <textarea class="comment_textarea" id='gamer_name' name='gamer_name' rows='2' cols='30'>
-        {{gamer_name}}
-      </textarea>
-            <br />
-            <br />
-            <button type='submit' value='Submit'>
-                Submit
-            </button>
+          </p>
+        </div>
+      {{/each}}
+      <div class="add-comment-container">
+        <form class="new-comment-form">
+          <label for="game_name">
+            Game Name:
+          </label>
+          <br />
+          <textarea
+            class="comment_textarea"
+            id="game_name"
+            name="game_name"
+            rows="2"
+            cols="30"
+          >
+            {{game_name}}
+          </textarea>
+          <br />
+          <label for="comment">
+            Comment here:
+          </label>
+          <br />
+          <textarea
+            class="comment_textarea"
+            id="comment"
+            name="comment"
+            rows="5"
+            cols="30"
+          >
+            {{comment}}
+          </textarea>
+          <br />
+          <label for="gamer_name">
+            Gamer's Name:
+          </label>
+          <br />
+          <textarea
+            class="comment_textarea"
+            id="gamer_name"
+            name="gamer_name"
+            rows="2"
+            cols="30"
+          >
+            {{gamer_name}}
+          </textarea>
+          <br />
+          <br />
+          <button type="submit" value="Submit"> 
+            Submit
+          </button>
         </form>
+      </div>
     </div>
-</div>
-
 
     <div class="navbar-end">
-        <div class="navbar-item">
-            <div class="buttons">
-                <a class="button is-warning" href="contactUS">
-                    <strong>Contact </strong>
-                </a>
-    
-                <a class="button is-secondary" href="allComments">
-                    <strong>Comments </strong>
-                </a>
-    
-    
-            </div>
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-warning" href="contactUS">
+            <strong>Contact </strong>
+          </a>
+
+          <a class="button is-secondary" href="allComments">
+            <strong>Comments </strong>
+          </a>
+
         </div>
+      </div>
     </div>
-</body>
-  </html>
+  </body>
+</html>
