@@ -14,7 +14,6 @@ router.get('/login', (req, res) => {
 
 router.get("/games", (req, res) => { res.render("gamezone") })
 
-
 router.get("/zelda", (req, res) => { res.render('zelda') })
 
 //Route for Super Mario Kart(USA)
@@ -32,23 +31,17 @@ router.get("/pokemnonSILVERGB", (req, res) => { res.render('pokemnonSILVERGB') }
 //Route for Pokemon BLUE
 router.get("/pokemonBLUEGB", (req, res) => { res.render('pokemonBLUEGB') })
 
-
-
 //Route for South Park
 router.get("/southPark", (req, res) => { res.render('southPark') })
 
-    //Route for Pokemon YELLOW
-router.get("/pokemonYELLOWGB",(req,res)=>
- {res.render('pokemonYELLOWGB')})
+//Route for Pokemon YELLOW
+router.get("/pokemonYELLOWGB",(req,res)=> {res.render('pokemonYELLOWGB')})
 
-router.get("/MarioKart64",(req,res)=>
- {res.render('MarioKart64')})
+router.get("/MarioKart64",(req,res)=> {res.render('MarioKart64')})
 
-router.get("/marioAndTetris",(req,res)=>
- {res.render('marioAndTetris')})
+router.get("/marioAndTetris",(req,res)=> {res.render('marioAndTetris')})
 
-router.get("/TurokSixtyFour",(req,res)=>
- {res.render('TurokSixtyFour')})
+router.get("/TurokSixtyFour",(req,res)=> {res.render('TurokSixtyFour')})
 
 //Route for Star Fox
 router.get("/starfoxSNES", (req, res) => { res.render('starfoxSNES') })
@@ -73,13 +66,15 @@ router.get("/KobeBryantNBAcourtside", (req, res) => { res.render('KobeBryantNBAc
 
 router.get("/MaddenNinetynine", (req, res) => { res.render('MaddenNinetynine') })
 
-router.get("/", (req, res) => {
-  res.render("login")
-})
+<<<<<<< HEAD
+router.get("/contactUS", (req, res) => { res.render('contactUS') })
+=======
+router.get("/allComments", (req, res) => { res.render('allComments') })
+>>>>>>> main
 
-router.get("/signup", (req, res) => {
-  res.render("signup")
-})
+router.get("/", (req, res) => {res.render("login")})
+
+router.get("/signup", (req, res) => {res.render("signup")})
 
 router.get('/', (req, res) => {
   console.log("=====================")
@@ -97,8 +92,6 @@ router.get('/', (req, res) => {
 
   res.redirect('login');
 });
-
-
 
 module.exports = router;
 // this is wher you set up you res and all that

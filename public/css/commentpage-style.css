@@ -1,0 +1,27 @@
+body{
+  display: flex; 
+  color: rgb(0, 136, 255);
+  font-family: 'Press Start 2P';
+  color: rgb(208, 255, 0);
+  background-image: url(https://images4.alphacoders.com/606/60626.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+}
+
+.commentTitle{
+  text-align: center;
+  font-size: 200%;
+}
+.commentPara{
+  text-align: center;
+  margin: 0px 80px;
+}
+
+.new-comment-form{
+  margin: 3% 40%
+}
+
+.comment_textarea{
+  margin: 5% 0%;
+}
