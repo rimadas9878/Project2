@@ -73,6 +73,8 @@ router.get("/KobeBryantNBAcourtside", (req, res) => { res.render('KobeBryantNBAc
 
 router.get("/MaddenNinetynine", (req, res) => { res.render('MaddenNinetynine') })
 
+router.get("/contactUS", (req, res) => { res.render('contactUS') })
+
 router.get("/", (req, res) => {
   res.render("login")
 })
