@@ -7,7 +7,7 @@ router.post('/', async (req, res) => {
     const commentData = await Comment.create({
     game_name: req.body.game_name,
     comment: req.body.comment,
-    gamer_name: req.body.gamer_name
+    gamer_name: req.body.gamer_name,
   });
   // if the comment is successfully added, the new response will be returned as json
   res.status(200).json(commentData)
