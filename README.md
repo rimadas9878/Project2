@@ -29,8 +29,10 @@
   ## Usage
   
    
-  ![Alt Text]()
+  ![Alt Text](./public/css/images/Demo.jpg)
 
+  ## Presentation Link
+  [Gameathon Presentation](https://docs.google.com/presentation/d/1bXO76XeOP-JmaQg6Jdu-WqvPgjAaGjWM_qpLgHWRlA8/edit#slide=id.g29f43f0a72_0_0)
   ## Questions?
   ### Reach us here: 
   * [rimadas9878](https://github.com/rimadas9878)
