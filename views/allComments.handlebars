@@ -1,0 +1,56 @@
+<div class="comment-container">
+    <div class='card-header col-md-10'>
+        <h2>
+            Comments
+        </h2>
+    </div>
+    {{#each comments as |comment|}}
+    <div class="comment col-md-5">
+        <p>
+            {{comment.id}}
+            {{comment.comment}}
+        </p>
+    </div>
+    <div class='col-md-7'>
+        <p>
+            Gamer:
+            {{comment.gamer_name}}
+        </p>
+    </div>
+    {{/each}}
+    <div class='add-comment-container'>
+        <h2>
+            Add your name and comments here!
+        </h2>
+        <form class='new-comment-form'>
+            <label for='game_name'>
+                Game Name:
+            </label>
+            <br />
+            <textarea id='game_name' name='game_name' rows='2' cols='30'>
+        {{game_name}}
+            </textarea>
+            <br />
+            <label for='comment'>
+                Comment here:
+            </label>
+            <br />
+            <textarea id='comment' name='comment' rows='5' cols='30'>
+        {{comment}}
+      </textarea>
+            <br />
+            <label for='gamer_name'>
+                Gamer's Name:
+            </label>
+            <br />
+            <textarea id='gamer_name' name='gamer_name' rows='2' cols='30'>
+        {{gamer_name}}
+      </textarea>
+            <br />
+            <br />
+            <button type='submit' value='Submit'>
+                Submit
+            </button>
+        </form>
+    </div>
+</div>
