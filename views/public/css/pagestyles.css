@@ -4,6 +4,7 @@
     font-family: "PressStart2P";
     src: url("https: //fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 }
+
 body {
     font-family: "PressStart2p", sans-serif;
     font-size: 15px;
@@ -49,4 +50,13 @@ div {
     text-align: center;
     border-style: solid;
     border-width: 1px;
+}
+
+.titleContactUs{
+    text-align: center;
+}
+.punchline{
+    color: red;
+    text-align: center;
+    margin-left: 3%;
 }
