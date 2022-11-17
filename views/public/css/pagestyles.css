@@ -2,7 +2,7 @@
  
  @font-face {
     font-family: "PressStart2P";
-    src: url("/views/public/css/PressStart2P-Regular.ttf");
+    src: url("https: //fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 }
 body {
     font-family: "PressStart2p", sans-serif;
@@ -23,7 +23,7 @@ h4,h5 {
     font-size: 15px;
 }
 
-#headerFont {
+div {
     font-family: "PressStart2p", sans-serif;
     font-size: 50px;
 } 
