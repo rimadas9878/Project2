@@ -5,13 +5,8 @@
    src: url("/views/public/css/PressStart2P-Regular.ttf");
 }
 
-body{
+.gamezoneFont{
     font-family: "PressStart2p", sans-serif;
     font-size: 15px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    color: aqua;
-}
