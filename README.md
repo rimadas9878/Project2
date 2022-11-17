@@ -8,6 +8,7 @@
   * [Description](#description)
   * [Installation](#Installation)
   * [Walk Through](#walkthrough)
+  * [Heroku Link](#Herokulink)
   * [Usage](#usage)
   * [Questions](#questions)
 
@@ -28,7 +29,7 @@
 
   ## Walk Through
 
-  [Walk Through ](https://drive.google.com/file/d/1beA7Lco_CrbnykOZ4iM8HLX9naNAFF2v/view)
+  [Walk Through](https://drive.google.com/file/d/1beA7Lco_CrbnykOZ4iM8HLX9naNAFF2v/view)
 
   ## Usage
   As a game developer and researcher, I want to know why old school games were popular, in order to attract an older generation of gamers, and hopefully to target a new audience! 
@@ -37,6 +38,10 @@
 
   ## Presentation Link
   [Gameathon Presentation](https://docs.google.com/presentation/d/1bXO76XeOP-JmaQg6Jdu-WqvPgjAaGjWM_qpLgHWRlA8/edit#slide=id.g29f43f0a72_0_0)
+
+  ## Heroku Link
+  [Heroku link](https://wegameathon.herokuapp.com/games)
+
   ## Questions?
   ### Reach us here: 
   * [rimadas9878](https://github.com/rimadas9878)
