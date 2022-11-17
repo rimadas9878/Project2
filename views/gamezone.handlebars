@@ -1,18 +1,22 @@
-
-
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GAMEATHON</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-     <link rel="stylesheet" href="css/gamepage-style.css">
+  <link
+    rel="stylesheet"
+
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+   {{!-- <link rel="stylesheet" href="css/gamepage-style.css" /> --}}
+   <link rel="stylesheet" href="/public/css/gamepage-style.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   
 </head>
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="#">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANS
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANS
       UhEUgAAAHUAAAB1CAMAAABH2l6OAAAAaVBMVEX///8AAADn5+dAQEDExMTf399NTU31
       9fX8/Py1tbXx8fH5+fnT09MbGxsXFxeqqqpycnJVVVWVlZW9vb2EhIRHR0egoKA6OjorKytnZ2ddXV3N
       zc1tbW1iYmKMjIx+fn4yMjIODg4iIiK2nHPGAAAEwUlEQVRoge1abYOyKhD1jTKlTC0r2zL3///IB8QXBmF
@@ -22,19 +26,21 @@
       /VrL2wTfkYzVjrcewoVFPl+DtrobK+VFJJIDZj/QjXkuCpVUAa2oxVTJaqX0iQKtNJsN4UF0syJ88ODXg2LnAfBdRX
       8BfWsKpgqbhkQg3gEovozg8MRSdexPff/OmxhDVT9ixMh4llmggW35HWf7OqTD045e9Zz8LnbhhpSffMh2uZNPlIrIKpz61Jsb5n
       jeT1Y9iJZ64AH1mMqbQyrF/jgZQuZxWrNJWwIYbu01iHCrBG0ueJtZTjXIN8lLc+P8bo/RVNIuGf5UasllkZ6aU49vVw2tfGI/XOjJqMNC2Ff+lfOlfdS0sbm/a5ecuqqmr4tPiLNeyhkuYX8a7aCE9KnFNFCGjBHpQ8xf7c0pGVwLWq4NJOr0yJGfSiWfU2rz/KV2Rkhc1dK1JZNV+AK6PYv+F35cgKX9Ogwwsgogg2
-      9peRFfaGm7FeQFr2GHvFBBbwzVhnVZ3jPuiEKvTi+5O/Fmc15TsM3dOsDz617XpOf6gwSm8/9MWWlpSJ3YFNP6jUTgrit2IkyQFsDE98VdGGBtWWI0N5ShvEqBnSHxzoNGv26YPpOBsBkI4KOiUQmBLCcnDxj3vdbquQW/bUdP66ppIVtiT+EE74u7VE8mc8opayEWsLMBwsy8YBqr+X6GP7BE9OtdZowLuzweUAnolifY3N4VkCX+Kws2lRG6WF1U8DLgh60cD2jJug1wKjwODhBILJKgBcPCxn3R3wZ3pF2OfuDFY9eDc3u6ZRAE6dprUD+2A7CWfWTRg2v59qazBq5cnaqhV/xYfFRtrZ1HzjdJ921irrD8+z3F1xXHuhiLBCdOp7b4JeH4k3ZGZWI4ZdVpaVeshTcavKMrMEkgDLe9ygVjbpJ9nPkSh3niEuTn5sSdfCgx7hmWwCSISfxBKiiYWV72g57NQJuecNLsOmX3klICaHHQI8uT5dZMa0eNV1U+J3y0HZ1PWroJ0kp2inQHHWC8qDAS1kT1wQid29AegSR2hND+3ejcAE6oCyLr3156gQvzir+f7aDuzeF2V9rCBF9R1lLe2uESC/PaCsq0gxgS+RfF2erAJvo+fn/OZuxPJkFTBrLTWP3VaSzu8/RwTm5TeVl+9h7MjYmOlslVq92pAaPB89Y5tztjq1A3FtSB1q9WmHIVL58UofTjury2+gPxV1dVrbYG0xVcNkxYR0OrFWIQboint/mJjr9G2bfyHwdGV2qCl7tRH/tf/q/y1mvj9jRibwjcLtSBkt9H2VanYs96+X9fogI5arQAG3Lin6KD+vFf05SK8WeTVvTuKEliVd07SYIVxvFqIODg4ODg4ODg7/Kf4BCLM9R/Pnzn4AAAAASUVORK5CYII=" width="40" height="100">
+      9peRFfaGm7FeQFr2GHvFBBbwzVhnVZ3jPuiEKvTi+5O/Fmc15TsM3dOsDz617XpOf6gwSm8/9MWWlpSJ3YFNP6jUTgrit2IkyQFsDE98VdGGBtWWI0N5ShvEqBnSHxzoNGv26YPpOBsBkI4KOiUQmBLCcnDxj3vdbquQW/bUdP66ppIVtiT+EE74u7VE8mc8opayEWsLMBwsy8YBqr+X6GP7BE9OtdZowLuzweUAnolifY3N4VkCX+Kws2lRG6WF1U8DLgh60cD2jJug1wKjwODhBILJKgBcPCxn3R3wZ3pF2OfuDFY9eDc3u6ZRAE6dprUD+2A7CWfWTRg2v59qazBq5cnaqhV/xYfFRtrZ1HzjdJ921irrD8+z3F1xXHuhiLBCdOp7b4JeH4k3ZGZWI4ZdVpaVeshTcavKMrMEkgDLe9ygVjbpJ9nPkSh3niEuTn5sSdfCgx7hmWwCSISfxBKiiYWV72g57NQJuecNLsOmX3klICaHHQI8uT5dZMa0eNV1U+J3y0HZ1PWroJ0kp2inQHHWC8qDAS1kT1wQid29AegSR2hND+3ejcAE6oCyLr3156gQvzir+f7aDuzeF2V9rCBF9R1lLe2uESC/PaCsq0gxgS+RfF2erAJvo+fn/OZuxPJkFTBrLTWP3VaSzu8/RwTm5TeVl+9h7MjYmOlslVq92pAaPB89Y5tztjq1A3FtSB1q9WmHIVL58UofTjury2+gPxV1dVrbYG0xVcNkxYR0OrFWIQboint/mJjr9G2bfyHwdGV2qCl7tRH/tf/q/y1mvj9jRibwjcLtSBkt9H2VanYs96+X9fogI5arQAG3Lin6KD+vFf05SK8WeTVvTuKEliVd07SYIVxvFqIODg4ODg4ODg7/Kf4BCLM9R/Pnzn4AAAAASUVORK5CYII="
+        width="40"
+        height="100"
+      />
     </a>
   </div>
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
       <h1><a class="navbar-item">
-      GAMEATHON
-      </a></h1>
+          GAMEATHON
+        </a></h1>
       <div class="navbar-item has-dropdown is-hoverable">
-        
 
         <div class="navbar-dropdown">
-       
+
         </div>
       </div>
     </div>
@@ -45,187 +51,214 @@
           <a class="button is-warning" href="contactUS">
             <strong>Contact </strong>
           </a>
-         
-            <a class="button is-secondary" href="allComments">
+
+          <a class="button is-secondary" href="allComments">
             <strong>Comments </strong>
           </a>
-          
-         
+
+          <a class="button is-warning" href="logout">
+            <strong>Log Out! </strong>
+          </a>
         </div>
       </div>
     </div>
   </div>
 </nav>
- <section class="hero is-dark">
+<section class="hero is-dark">
   <div class="hero-body">
     <p class="title">
       Welcome to GAMEATHON
     </p>
     <p class="subtitle">
-      Below you have a list of our games.
-              Click on the game title you want to play to get started.
+      Below you have a list of our games. Click on the game title you want to
+      play to get started.
     </p>
   </div>
 </section>
-<br>
+<br />
 
-   <div class="columns">
+<div class="columns">
   <div class="column">
-     <div class="card">
-            <img class="thumbnail" src="ZeldaOcarinaOfTime.png" alt="Zelda">
-            <button  class="button is-rounded is-warning"> <h5 class="font-effect-shadow-multiple"><a href="/zelda"> The legends of Zelda </a></h5></button>
-            
-          </div>
-          <br>
-       <div class="">
-            <img class="thumbnail" src="Turok64.png" alt="Turok">
-           <button  class="button is-rounded is-warning"> <h5 class="font-effect-shadow-multiple"><a href="/Turok">Turok-Dinosour Hunter 64</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="supermarioWorldSNES.png">
-           <button  class="button is-rounded is-warning">  <h5 class="font-effect-shadow-multiple"><a href="supermarioworldSNES">Super MarioWorld</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="StarFoxSNES.png">
-          <button  class="button is-rounded is-warning">   <h5 class="font-effect-shadow-multiple"><a href="starfoxSNES">StarFox</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="southpark64.png">
-           <button  class="button is-rounded is-warning">  <h5 class="font-effect-shadow-multiple"><a href="southPark">South Park</a></h5></button>
-          </div>
-            <br>
-            <div class="column">
-            <img class="thumbnail" src="supermariokartSNES.png">
-          <button  class="button is-rounded is-warning">   <h5 class="font-effect-shadow-multiple"><a href="/SuperMarioKartSNES">Super Mario Kart SNES</a></h5></button>
-          </div>
-            <br>
+    <div class="card">
+      <img class="thumbnail" src="ZeldaOcarinaOfTime.png" alt="Zelda" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a href="/zelda">
+            The legends of Zelda
+          </a></h5></button>
+
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="Turok64.png" alt="Turok" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a href="/TurokSixtyFour">Turok-Dinosour
+            Hunter 64</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="supermarioWorldSNES.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="supermarioworldSNES"
+          >Super MarioWorld</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="StarFoxSNES.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="starfoxSNES"
+          >StarFox</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="southpark64.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a href="southPark">South Park</a></h5></button>
+    </div>
+    <br/>  {{!-- <br />  starts right here --}}
+    </b>
+
+    <br />
   </div>
 
-  {{!-- second co --}}
-  <div class="column"> 
+  {{! second co }}
+  <div class="column">
 
     <div class="">
-            <img class="thumbnail" src="supermarioworldTWOSNES.png">
-            <button class="button is-rounded is-warning">
-              <h5 ><a href="supermarioworldTWOSNES">Super Mario World 2</a></h5></button>
-          </div>
-            <br>
-          
+      <img class="thumbnail" src="supermarioworldTWOSNES.png" />
+      <button class="button is-rounded is-warning">
+        <h5><a href="supermarioworldTWOSNES">Super Mario World 2</a></h5></button>
+    </div>
+    <br />
     <div class="">
-            <img class="thumbnail" src="supermarioWorldSNES.png">
-           <button  class="button is-rounded is-warning"> <h5 class="font-effect-shadow-multiple"><a href="supermarioworldSNES">Super MarioWorld</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="pokemonYELLOWGB.png">
-          <button  class="button is-rounded is-warning"> <h5 class="font-effect-shadow-multiple"><a href="/pokemonYELLOWGB">Pokémon Yellow</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="pokemonBLUEGB.png">
-          <button  class="button is-rounded is-warning"> <h5 class="font-effect-shadow-multiple"><a href="/pokemonBLUEGB">Pokémon Blue</a></h5></button>
-          </div>
-            <br>
-              <div class="column">
-            <img class="thumbnail" src="megamanSIXTYFPO.png">
-         <button  class="button is-rounded is-warning">  <h5 class="font-effect-shadow-multiple"><a href="/megamanSIXTYFOUR">Mega Man 64</a></h5></button>
-          </div>
-            <br>
-        
+      <img class="thumbnail" src="pokemonYELLOWGB.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="/pokemonYELLOWGB"
+          >Pokémon Yellow</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="pokemonBLUEGB.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a href="/pokemonBLUEGB">Pokémon
+            Blue</a></h5></button>
+    </div>
+    <br />
+    <div class="column">
+      <img class="thumbnail" src="megamanSIXTYFPO.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a href="/megamanSIXTYFOUR">Mega
+            Man 64</a></h5></button>
+    </div>
+    <br />
+          <div class="column">
+      <img class="thumbnail" src="supermariokartSNES.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="/SuperMarioKartSNES"
+          >Super Mario Kart SNES</a></h5></button>
+    </div>
   </div>
-  {{!-- Third co --}}
+  {{! Third co }}
   <div class="column">
     <div class="">
-            <img class="thumbnail" src="MarioSixtyFour.png">
-          <button  class="button is-rounded is-warning">  <h5 class="font-effect-shadow-multiple"><a href="/mariosixtyfour">Super Mario 64</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="maddenNINTYNINE.png">
-            <button  class="button is-rounded is-warning">   <h5 class="font-effect-shadow-multiple"><a href="/MaddenNinetynine">Madden NFL 1999 64</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="KillerInstincGold.png">
-           <button  class="button is-rounded is-warning">    <h5 class="font-effect-shadow-multiple"><a href="/KillerInstinctSixtyFour">Killer Instinct Gold 64</a></h5></button>
-          </div>
-            <br>
-           <div class="">
-            <img class="thumbnail" src="pokemonSILVERGB.png">
-          <button  class="button is-rounded is-warning">     <h5 class="font-effect-shadow-multiple"><a href="/pokemnonSILVERGB">Pokémon Silver</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="KobeBryantCourtSide.png">
-           <button  class="button is-rounded is-warning">    <h5 class="font-effect-shadow-multiple"><a href="/KobeBryantNBAcourtside"> Kobe Bryant's NBA COURTSIDE
-                64</a></h5></button>
-          </div>
-         <br>
+      <img class="thumbnail" src="MarioSixtyFour.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a href="/mariosixtyfour">Super
+            Mario 64</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="maddenNINTYNINE.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="/MaddenNinetynine"
+          >Madden NFL 1999 64</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="KillerInstincGold.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="/KillerInstinctSixtyFour"
+          >Killer Instinct Gold 64</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="pokemonSILVERGB.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="/pokemnonSILVERGB"
+          >Pokémon Silver</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="KobeBryantCourtSide.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="/KobeBryantNBAcourtside"
+          > Kobe Bryant's NBA COURTSIDE 64</a></h5></button>
+    </div>
+    <br />
   </div>
-  
-  {{!-- fourth co--}}
+
+  {{! fourth co}}
   <div class="column">
-      
-   <div class="">
-            <img class="thumbnail" src="diddyKongQuest.png">
-        <button  class="button is-rounded is-warning">      <h5 class="font-effect-shadow-multiple"><a href="/DiddyKongQuestSNES">Donkey Kong Country 2: Diddy's Kong
-                Quest</a></h5> </button>
-          </div>
-            <br>
-           <div class="">
-            <img class="thumbnail imgGrid" src="BomberMAnSixtyfourTWO.png">
-        <button  class="button is-rounded is-warning">      <h5 class="font-effect-shadow-multiple"><a href="/bombermanSixtyFourTwo">Bomberman64-TheSecondAttack</a>
-            </h5> </button>
-          </div>
-            <br>
-           <div class="">
-            <img class="thumbnail imgGrid" src="fzeroXsixtyfour.png">
-        <button  class="button is-rounded is-warning">      <h5 class="font-effect-shadow-multiple"><a href="/FzeroSixtyFour">F-Zero X 64</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="MarioKArtSixtyFour.png">
-        <button  class="button is-rounded is-warning">      <h5 class="font-effect-shadow-multiple"><a href="/MarioKart64">MarioKart 64</a></h5></button>
-          </div>
-            <br>
-          <div class="">
-            <img class="thumbnail" src="GoldenEyeN64.png">
-         <button  class="button is-rounded is-warning">     <h5 class="font-effect-shadow-multiple"><a href="/GoldenEye">GoldenEye 007 64</a></h5></button>
-          </div>
-            <br>
+
+    <div class="">
+      <img class="thumbnail" src="diddyKongQuest.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="/DiddyKongQuestSNES"
+          >Donkey Kong Country 2: Diddy's Kong Quest</a></h5>
+      </button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail imgGrid" src="BomberMAnSixtyfourTWO.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a
+            href="/bombermanSixtyFourTwo"
+          >Bomberman64-TheSecondAttack</a>
+        </h5>
+      </button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail imgGrid" src="fzeroXsixtyfour.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a href="/FzeroSixtyFour">F-Zero
+            X 64</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="MarioKArtSixtyFour.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a href="/MarioKart64">MarioKart
+            64</a></h5></button>
+    </div>
+    <br />
+    <div class="">
+      <img class="thumbnail" src="GoldenEyeN64.png" />
+      <button class="button is-rounded is-warning">
+        <h5 class="font-effect-shadow-multiple"><a href="/GoldenEye">GoldenEye
+            007 64</a></h5></button>
+    </div>
+    <br />
   </div>
 </div>
-
 
 <div>
-<section class="hero is-small is-warning">
-  <div class="hero-body">
+  <section class="hero is-small is-warning">
+    <div class="hero-body">
       <p class="subtitle">
-          GAMEATHON
-    </p>
+        GAMEATHON
+      </p>
       <p class="subtitle">
-  <a href="#">Meet the Team</a> 
-    </p>
-  </div>
-</section>
+        <a href="#">Where gamers go!</a>
+      </p>
+    </div>
+  </section>
 </div>
- 
-         
-          
-          
-
-          
-          
-          
-          
-         
-         
-         
-         
-        
-
-
-

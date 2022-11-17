@@ -12,6 +12,7 @@ router.post('/', async (req, res) => {
   // if the comment is successfully added, the new response will be returned as json
   res.status(200).json(commentData)
 } catch (err) {
+  console.log(err);
   res.status(400).json(err);
 }
 });

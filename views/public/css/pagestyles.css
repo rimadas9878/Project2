@@ -2,12 +2,14 @@
  
  @font-face {
     font-family: "PressStart2P";
-    src: url("/public/css/PressStart2P-Regular.ttf");
+    src: url("https: //fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 }
+
 body {
     font-family: "PressStart2p", sans-serif;
     font-size: 15px;
     margin: 0;
+    background-color: darkgray;
 }
 h1 {
     font-family: "PressStart2p", sans-serif;
@@ -22,23 +24,20 @@ h4,h5 {
     font-size: 15px;
 }
 
-#headerFont {
+div {
     font-family: "PressStart2p", sans-serif;
     font-size: 50px;
 } 
 
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 .gameArea {
     display: flex;
     flex-direction: row;
-    /* Centers along the main axis determined by flex-direction */
     justify-content: center;
-    /* Centers along the opposite axis */
     align-items: center;
     width: 90%;
-    /* Uses the height of the viewport */
     height: 100vh;
     margin: 0 auto;
     border-style: solid;
@@ -51,4 +50,13 @@ h4,h5 {
     text-align: center;
     border-style: solid;
     border-width: 1px;
+}
+
+.titleContactUs{
+    text-align: center;
+}
+.punchline{
+    color: red;
+    text-align: center;
+    margin-left: 3%;
 }

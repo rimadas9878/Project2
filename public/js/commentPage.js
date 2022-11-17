@@ -4,7 +4,7 @@ async function newFormHandler(event) {
     const comment = document.querySelector('#comment').value;
     const gamer_name = document.querySelector('#gamer_name').value;
 
-    // Send fetch request to add a new dish
+    // Send fetch request to add a new 
     const response = await fetch(`/api/comment`, {
       method: 'POST',
       body: JSON.stringify({
@@ -18,7 +18,7 @@ async function newFormHandler(event) {
     });
     //if the comment is added, the 'all' template will be rerendered
     if (response.ok) {
-      document.location.replace('/');
+      document.location.replace('/allComments');
     } else {
       alert('Failed to add comment');
     }
